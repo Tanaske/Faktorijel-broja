@@ -3,9 +3,11 @@ function IzracunajFaktorijel(n) {
         return 1;
     }
     else {
-        return n * Faktorijel(n - 1);
+        return n * IzracunajFaktorijel(n - 1);
     }
 }
 
 
-Faktorijel(5);
+console.log(IzracunajFaktorijel(5));
+
+
